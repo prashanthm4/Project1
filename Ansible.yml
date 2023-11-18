@@ -1,10 +1,10 @@
 - hosts: all
   tasks:
-    - name: stop container
-      shell: docker container stop pracon
-    - name: remove container
-      shell: docker container rm pracon
-    - name: remove docker image
-      shell: docker image rmi prashanth6802/pracon
+    #- name: stop container
+     # shell: docker container stop pracon
+    #- name: remove container
+     # shell: docker container rm pracon
+    #- name: remove docker image
+     # shell: docker image rmi prashanth6802/pracon
     - name: create new container
       shell: docker container run -itd --name pracon -p 9000:80 prashanth6802/prashanthp
