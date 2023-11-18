@@ -7,4 +7,4 @@
   # - name: remove docker image
    #  shell: docker image rmi prashanth6802/docker_image
     - name: create new container
-      shell: docker container run -itd --name pracon -p 9000:80 prashanth6802/docker_image
+      shell: docker container run -itd --name pracon -p 9000:80 akhilesh48455/docker_image
